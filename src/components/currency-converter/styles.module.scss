@@ -1,0 +1,23 @@
+.converter {
+  &__desktop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  &__mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  &__swap {
+    border: none;
+    padding: 10px;
+    font-size: 40px;
+    cursor: pointer;
+    background-color: transparent;
+  }
+}

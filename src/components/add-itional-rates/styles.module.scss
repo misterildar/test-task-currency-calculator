@@ -1,0 +1,12 @@
+.additional {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #333;
+
+  &__rate {
+    text-align: center;
+  }
+}

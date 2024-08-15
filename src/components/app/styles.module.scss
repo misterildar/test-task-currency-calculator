@@ -1,0 +1,24 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  max-width: 1000px;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 44px 90px #000;
+  border: 1px solid rgb(0, 4, 2);
+  box-sizing: border-box;
+
+  &__title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}
