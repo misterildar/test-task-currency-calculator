@@ -15,10 +15,16 @@
   box-shadow: 0 44px 90px #000;
   border: 1px solid rgb(0, 4, 2);
   box-sizing: border-box;
+  position: relative;
 
   &__title {
     display: flex;
     justify-content: center;
     text-align: center;
+  }
+
+  &__loading {
+    position: absolute;
+    top: 340px;
   }
 }
