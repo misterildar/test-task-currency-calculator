@@ -22,7 +22,6 @@ const App: FC = () => {
         <CurrencyConverter state={state} handlers={handlers} />
         {showLoader && <p className={styles.content__loading}>Загрузка...</p>}
         <ErrorMessage message={state.error} />
-        <h2>Тестовое задание для Маркгрупп</h2>
       </div>
     </div>
   );

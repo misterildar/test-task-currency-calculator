@@ -5,7 +5,7 @@ import { POPULAR_CURRENCIES } from "../../utils/constants";
 import { CurrencyConverterProps } from "../../utils/types";
 import CurrencyInput from "../currency-input/CurrencyInput";
 
-import styles from "./styles.module.scss";
+import styles from "./Styles.module.scss";
 
 const CurrencyConverter: FC<CurrencyConverterProps> = ({ state, handlers }) => {
   const device = useDevice();
